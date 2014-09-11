@@ -34,7 +34,7 @@ $(document).ready(function(){
          */
         $.ajax({
             type: 'POST',
-            url: 'post_receiver.php', 
+            url: 'http://192.168.0.101/json/post_receiver.php', 
             data: $(this).serialize()
         })
         .done(function(data){
